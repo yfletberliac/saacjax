@@ -6,6 +6,8 @@ __pycache__/
 logs/
 data/
 images/
+.idea/
+highway-env/
 *.log
 *.out
 *.sh
