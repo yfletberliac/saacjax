@@ -1,0 +1,12 @@
+build/
+dist/
+*.egg-info/
+__pycache__/
+.vscode/
+logs/
+data/
+images/
+*.log
+*.out
+*.sh
+*.ipynb

@@ -1,0 +1,22 @@
+[tool.black]
+line-length = 127
+target-version = ['py36', 'py37', 'py38']
+exclude = '''
+/(
+    __pycache__
+  | build
+  | dist
+  | .vscode
+  | .git
+  | .ipynb_checkpoints
+  | .tox
+  | .pytest_cache
+  | rljax.egg-info
+)/
+'''
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "mujoco: marks tests requiring mujoco's licence (deselect with '-m \"not mujoco\"')",
+]
