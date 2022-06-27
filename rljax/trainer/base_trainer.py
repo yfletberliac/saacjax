@@ -86,7 +86,7 @@ class Trainer:
             while not done:
                 action = self.algo.select_action(state)
                 state, reward, done, _ = self.env_test.step(action)
-                print(len(state))
+                # print(len(state))
                 reward_c = (np.ones(2) - state[-self.num_constraints:(-self.num_constraints + 2)]).mean()
                 # reward_c = (np.ones(1) - state[-self.num_constraints]).mean()
                 total_return += reward
