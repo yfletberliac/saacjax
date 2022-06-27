@@ -6,12 +6,14 @@ Rljax is a collection of RL algorithms written in JAX.
 ## Setup
 You can install dependencies simply by executing the following. To use GPUs, CUDA (10.0, 10.1, 10.2 or 11.0) must be installed.
 ```bash
+pip install -r requirements.txt
 pip install https://storage.googleapis.com/jax-releases/`nvcc -V | sed -En "s/.* release ([0-9]*)\.([0-9]*),.*/cuda\1\2/p"`/jaxlib-0.1.55-`python3 -V | sed -En "s/Python ([0-9]*)\.([0-9]*).*/cp\1\2/p"`-none-manylinux2010_x86_64.whl jax==0.2.0
 pip install -e .
 ```
 
 If you don't have a GPU, please execute the following instead.
 ```bash
+pip install -r requirements.txt
 pip install jaxlib==0.1.55 jax==0.2.0
 pip install -e .
 ```

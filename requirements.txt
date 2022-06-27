@@ -2,7 +2,11 @@ pyyaml==5.3.1
 tqdm==4.48.2
 numpy==1.19.2
 pandas==1.1.2
-dm-haiku==0.0.2
+dm-haiku
 gym[atari]==0.17.2
-dm_control==0.0.322773188
+dm_control
 tensorboardX==2.1
+jax
+jaxlib
+git+https://github.com/google-research/realworldrl_suite.git#egg=realworldrl_suite
+realworldrl_suite
