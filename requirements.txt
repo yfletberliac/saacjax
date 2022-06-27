@@ -8,5 +8,5 @@ dm_control
 tensorboardX==2.1
 jax
 jaxlib
-git+https://github.com/google-research/realworldrl_suite.git#egg=realworldrl_suite
-realworldrl_suite
+dm2gym
+protobuf==3.20.0

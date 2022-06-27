@@ -8,6 +8,7 @@ data/
 images/
 .idea/
 highway-env/
+realworldrl_suite/
 *.log
 *.out
 *.sh

@@ -8,6 +8,9 @@ You can install dependencies simply by executing the following.
 ```bash
 pip install -r requirements.txt
 pip install -e .
+git clone https://github.com/google-research/realworldrl_suite.git
+cd realworldrl_suite
+pip install -e .
 ```
 To use GPUs or TPUs, follow instructions [here](https://github.com/google/jax).
 
