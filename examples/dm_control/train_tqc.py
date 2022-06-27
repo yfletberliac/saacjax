@@ -38,8 +38,8 @@ def run(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument('--domain_name', type=str, default='cheetah')
-    p.add_argument('--task_name', type=str, default='run')
+    p.add_argument('--domain_name', type=str, default='walker')
+    p.add_argument('--task_name', type=str, default='realworld_walk')
     p.add_argument('--combined_challenge', type=str, default=None)
     p.add_argument("--num_agent_steps", type=int, default=1000000)
     p.add_argument("--eval_interval", type=int, default=10000)
