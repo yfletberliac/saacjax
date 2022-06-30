@@ -10,3 +10,4 @@ jax==0.3.13
 jaxlib==0.3.10
 dm2gym==0.2.0
 protobuf==3.20.1
+optax==0.1.2
